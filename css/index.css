@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,html{
+    font-family: 'DungGeunMo';
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 99vh;
+    justify-content: center;
+    align-items: center;
+}
+#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-bottom: 10px;
+    color: rgb(227, 145, 145);
+}
+
+#modal{
+    border-radius: 30px;
+    border: 10px solid rgb(227, 145, 145);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    height: 70%;
+}
+#postbox{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    overflow-y: scroll;
+    align-items: center;
+}
+#inputbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 15%;
+}
+
+input[type=text]{
+    font-family: 'DungGeunMo';
+    border-top: 0;
+    border-right: 2px solid rgb(227, 145, 145);
+    border-left: 0;
+    border-bottom: 0;
+    width: 20%;
+}
+textarea{
+    font-family: 'DungGeunMo';
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px dotted rgb(227, 145, 145);
+    width: 60%;
+}
+#submit{
+    font-family: 'DungGeunMo';
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(227, 145, 145);
+    width: 10%;
+    height: 30%;
+}
+
+.newpost{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 5px;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border : 2px solid rgb(227, 145, 145);
+}
+
+.writer{
+    color:rgb(227, 145, 145);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom: 2px solid rgb(227, 145, 145);
+}
+
+.date{
+    display: flex;
+    color: rgb(169, 169, 169);
+    justify-content: flex-end;
+    border-bottom: 2px dotted rgb(227, 145, 145);
+}
+
+.deleteBtn{
+    font-family: 'DungGeunMo';
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(227, 145, 145);
+}
